@@ -1,4 +1,7 @@
-@import "../variables.scss";
+@import "../utils/mixins";
+@import "../utils/variables";
+
 .first{
+    position: relative;
     background-color: $main-background-color;
 }
