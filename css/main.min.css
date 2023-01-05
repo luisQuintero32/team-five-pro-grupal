@@ -1,10 +1,6 @@
 .first {
   background-color: #FFB8CA;
 }
-.first__paragraph {
-  font-family: "DM Sans";
-  text-align: justify;
-}
 
 .header {
   display: flex;
@@ -119,6 +115,7 @@
 
 .first__img-milk {
   margin-left: 20px;
+  display: flex;
 }
 
 /*# sourceMappingURL=main.min.css.map */
