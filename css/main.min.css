@@ -129,4 +129,26 @@
   box-sizing: border-box;
 }
 
+
+
+/* --------------------secccion2----------------- */
+
+.seccion2{
+  display: flex;
+  list-style: none;
+  gap: 34px;
+}
+
+.puntos{
+  display: flex;
+  list-style: none;
+}
+.item1{
+  background-color: red;
+  border-radius: 20px;
+}
+
+.item2{
+  background-color: #ECEBEB;
+}
 /*# sourceMappingURL=main.min.css.map */
