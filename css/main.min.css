@@ -152,3 +152,79 @@
   background-color: #ECEBEB;
 }
 /*# sourceMappingURL=main.min.css.map */
+
+
+/* --------------------secccion4----------------- */
+
+.container4{
+  width: 32px;
+  height: 4px;
+  left: 584px;
+  top: 3662px;
+}
+.collage {
+  padding: 0 0 1566px 0;
+  position: absolute;
+  height: 430px;
+  left: 93px;
+  top: 2857px;
+}
+
+.testimonial {
+  position: absolute;
+width: 85px;
+height: 85px;
+left: 558px;
+top: 3407px;
+
+background: url("../images/SECCION\ 4/.testimonial");
+border-radius: 44px;
+}
+
+.contenedorletra img{
+  position: absolute;
+width: 968px;
+height: 138px;
+left: 116px;
+top: 3508px;
+
+background: #FAFAFA;
+}
+.contenedorletra p{
+  position: absolute;
+  width: 750px;
+  height: 52px;
+  left: 225px;
+  top: 3555px;
+  
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 186%;
+  /* or 30px */
+  
+  text-align: center;
+  letter-spacing: 0.04em;
+  
+  color: var($fourth-text-color);
+}
+
+.contenedorletra a {
+  position: absolute;
+width: 172px;
+height: 31px;
+left: 514px;
+top: 3682px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 186%;
+/* or 37px */
+
+text-align: center;
+
+color: var($fourth-text-color);
+}
