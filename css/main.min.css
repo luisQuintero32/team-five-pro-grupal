@@ -1,17 +1,18 @@
 .first {
-  position: relative;
   background-color: #FFB8CA;
 }
 
 .first__title {
   margin-left: 20px;
+  width: 270px;
+  margin-top: 30px;
   line-height: 44px;
   font-size: 38px;
   font-weight: 400;
   letter-spacing: 0.04em;
   font-family: "Titan One", cursive;
   text-transform: uppercase;
-  margin-top: 60px;
+  margin-top: 74px;
   color: #FFFFFF;
 }
 .first__title-color {
@@ -39,13 +40,13 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 21px;
-  margin-top: 54px;
+  margin-top: 52px;
 }
 .header__item:hover {
   color: #D41443;
 }
 .header__logo {
-  margin-top: 44px;
+  margin-top: 40px;
   margin-left: 20px;
 }
 .header__button {
@@ -72,6 +73,7 @@
 
 .first__button {
   margin-left: 20px;
+  width: 270px;
 }
 .first__button-products {
   width: 107px;
@@ -115,18 +117,43 @@
 .first__img-milk {
   margin-top: 40px;
   margin-left: 16px;
-  display: flex;
 }
 
 .imagen-elipse {
-  display: flex;
-  justify-content: end;
+  position: absolute;
+}
+
+.footer {
+  background-color: #212121;
+}
+
+.footer .seccion {
+  background-color: #fff5f6;
+  width: 100%;
+  height: 877px;
+}
+
+.helado {
+  color: aqua;
+}
+
+.sobelo {
+  color: aqua;
+}
+
+.cards {
+  width: 200px;
+  box-shadow: 1px solid #212121;
 }
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+li {
+  list-style: none;
 }
 
 /*# sourceMappingURL=main.min.css.map */

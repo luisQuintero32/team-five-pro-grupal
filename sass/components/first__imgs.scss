@@ -1,14 +1,11 @@
 @import "../utils/mixins";
 @import "../utils/variables";
 
-.first__img-milk{
-    
+.first__img-milk{    
     margin-top: 40px;
-    margin-left: 16px;
-    display: flex;
-    
+    margin-left: 16px;    
 }
+
 .imagen-elipse{
-    display: flex;
-    justify-content: end;
+    position: absolute;
 }

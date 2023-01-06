@@ -1,0 +1,35 @@
+@import "../utils/mixins";
+@import "../utils/variables";
+
+//Seccion footer
+.footer{
+    background-color: #212121;
+}
+.footer .seccion{
+    background-color: #fff5f6;
+    width: 100%;
+    height: 877px;
+}
+.helado{
+    color: aqua;
+}
+.sobelo{
+    color: aqua;
+}
+// tarjetas
+.cards{
+    display: flex;
+}
+
+.card{
+    width: 200px;
+    box-shadow: 1px solid #212121;
+}
+
+// botones
+
+
+// contactos
+
+
+// Div derechos reservados

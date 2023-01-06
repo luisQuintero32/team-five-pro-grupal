@@ -3,6 +3,7 @@
 
 .first__button{
     margin-left: 20px;
+    width: 270px;
 
     &-products{
         // button
@@ -36,8 +37,8 @@
     cursor: pointer;
 
     // text
-       @include font-DM;
-       font-style: normal;
+    @include font-DM;
+    font-style: normal;
         font-weight: 400;
         font-size: 14px;
         line-height: 18px;
