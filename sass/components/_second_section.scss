@@ -16,7 +16,7 @@
         position: absolute;
         width: 368px;
         height: 394px;
-        left: 16px;
+        left: 50px;
         top: 800px;
         z-index: 2;
         
@@ -26,17 +26,18 @@
 position: absolute;
     width: 368px;
     height: 535px;
-    left: 19px;
+    left: 50px;
     top: 1100px;
     background:$main-background-color;
     border-radius: 24px;
+    cursor: pointer;
 }
 &__t-ice-cream{
 @include title-ice-cream-ice-coffee-milkshakes;
 
 }
 &__p{
-  color: red;
+  
   margin-top: 70px;
   font-family: 'DM Sans';
     font-style: normal;
@@ -54,7 +55,7 @@ position: absolute;
     top: 460px;
 }
 &__list{
-  background-color: red;
+  
   display: flex;
   gap:50px
 }
@@ -63,22 +64,43 @@ position: absolute;
   position: absolute;
     width: 368px;
     height: 535px;
-    left: 416px;
+    left: 540px;
     top: 1100px;
     background: #F0D1A5;
     border-radius: 24px;
+    cursor: pointer;
 }
 &__pic-two{
 position: absolute;
   width: 368px;
   height: 394px;
-  left: 416px;
+  left: 540px;
   top: 800px;
   z-index: 2;
 }
 &__t-ice-coffee{
 @include title-ice-cream-ice-coffee-milkshakes;
+}
 
+// card three
+&__card-three{
+   position: absolute;
+    width: 368px;
+    height: 535px;
+    left: 1020px;
+    top:1100px;
+    background: #C2E297;
+    border-radius: 24px;
+    cursor: pointer;
+
+}
+&__pic-three{
+  position: absolute;
+    width: 368px;
+    height: 394px;
+    left: 1020px;
+    top: 800px;
+    z-index: 2;
 }
 }
 
