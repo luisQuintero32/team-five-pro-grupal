@@ -2,7 +2,12 @@
 @import "../utils/mixins";
 
 .second{
-
+&__container-cards{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 281px;
+  margin-bottom: 90px;
+}
 
 &__t-natural {
         @include title-pink;
@@ -16,14 +21,14 @@
         position: absolute;
         width: 368px;
         height: 394px;
-        left: 50px;
-        top: 800px;
+        left: 20px;
+        top: 770px;
         z-index: 2;
         
 }
 &__card-one{
 
-position: absolute;
+   margin-left: 20px;
     width: 368px;
     height: 535px;
     left: 50px;
@@ -38,7 +43,7 @@ position: absolute;
 }
 &__p{
   
-  margin-top: 70px;
+  margin-top: 80px;
   font-family: 'DM Sans';
     font-style: normal;
     font-weight: 700;
@@ -48,11 +53,8 @@ position: absolute;
     color: #FFFFFF;
 }
 &__img-arrow{
-  position: absolute;
-    
-    height: 40px;
-    left: 160px;
-    top: 460px;
+ margin-left: 155px;
+ margin-top: 100px;
 }
 &__list{
   
@@ -61,11 +63,11 @@ position: absolute;
 }
 // carda two
 &__card-two{
-  position: absolute;
+ 
     width: 368px;
     height: 535px;
     left: 540px;
-    top: 1100px;
+    top: 770px;;
     background: #F0D1A5;
     border-radius: 24px;
     cursor: pointer;
@@ -74,8 +76,8 @@ position: absolute;
 position: absolute;
   width: 368px;
   height: 394px;
-  left: 540px;
-  top: 800px;
+  left: 550px;
+  top: 770px;;
   z-index: 2;
 }
 &__t-ice-coffee{
@@ -84,7 +86,7 @@ position: absolute;
 
 // card three
 &__card-three{
-   position: absolute;
+    margin-right: 20px;
     width: 368px;
     height: 535px;
     left: 1020px;
@@ -95,12 +97,16 @@ position: absolute;
 
 }
 &__pic-three{
-  position: absolute;
+    position:absolute;
     width: 368px;
     height: 394px;
-    left: 1020px;
-    top: 800px;
+    left: 1085px;
+    top: 770px;
     z-index: 2;
+}
+&__img-puntos{
+  margin-left: 171px;
+  margin-top: 30px;
 }
 }
 
