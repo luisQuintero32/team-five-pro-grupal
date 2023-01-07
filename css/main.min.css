@@ -181,17 +181,55 @@ background: url("../images/SECCION\ 4/.testimonial");
 border-radius: 44px;
 }
 
-.contenedorletra img{
+.contenedorletra {
+  width: 968px;
+  height: 138px;
+  left: 116px;
+  top: 3508px;
+ 
+  
+}
+
+.contenedorletra .fondo img {
   position: absolute;
 width: 968px;
 height: 138px;
 left: 116px;
 top: 3508px;
-
-background: #FAFAFA;
+background-image: url("..images/SECCION\ 4/fondo");
 }
-.contenedorletra p{
+
+.item {
   position: absolute;
+width: 54px;
+height: 40px;
+left: 100px;
+top: 3550px;
+
+}
+
+.lineas .linea1 {
+  position: absolute;
+width: 821px;
+height: 0px;
+left: 189px;
+top: 3584px;
+
+border: 1px solid #E1E1E1;
+}
+
+.lineas .linea2 {
+  position: absolute;
+width: 821px;
+height: 0px;
+left: 189px;
+top: 3615px;
+
+border: 1px solid #E1E1E1;
+}
+
+.contenedorletra  p {
+  position: absolute ;
   width: 750px;
   height: 52px;
   left: 225px;
@@ -207,11 +245,22 @@ background: #FAFAFA;
   text-align: center;
   letter-spacing: 0.04em;
   
-  color: var($fourth-text-color);
+  color: #000000;
 }
 
-.contenedorletra a {
+.puntos {
   position: absolute;
+width: 4px;
+height: 4px;
+left: 578px;
+top: 3662px;
+
+background: #C7133E;
+}
+  
+
+.contenedorletra .emily {
+position: absolute;
 width: 172px;
 height: 31px;
 left: 514px;
@@ -226,5 +275,59 @@ line-height: 186%;
 
 text-align: center;
 
-color: var($fourth-text-color);
+color: #000000;
 }
+
+.contenedor2 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+width: 100px;
+height: 25px;
+left: 550px;
+top: 3745px;
+}
+
+.botones {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  width: 20px;
+  height: 20px;
+}
+ .contenedor2 .botones a {
+ 
+  width: 20px;
+  height: 20px;
+ }
+
+ .contenedor2 .botones a .boton {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  fill: rgba(217, 217, 217, 1);
+ }
+
+ .contenedor2 .botones a .boton use {
+  
+  width: 12px;
+  height: 10px;
+  fill:rgba(217, 217, 217, 1);
+ }
+
+ .contenedor2 .botones a .boton use:hover,
+ .contenedor2 .botones a .boton use:focus {
+  fill: #D41443;
+  
+ }
+
+ 
+
+ 
+
+ 
+
