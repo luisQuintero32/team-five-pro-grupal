@@ -151,21 +151,21 @@
 .imagen-elipse {
   position: absolute;
   top: 54px;
-  left: 557px;
+  left: 700px;
   z-index: 1;
 }
 
 .image__cream {
   position: absolute;
   top: 108px;
-  left: 676px;
+  left: 800px;
   z-index: 7;
 }
 
 .images__tasty {
   position: absolute;
   top: 423px;
-  left: 920px;
+  left: 1100px;
   z-index: 7;
 }
 
@@ -307,7 +307,7 @@
   margin-left: 20px;
   width: 368px;
   height: 535px;
-  left: 50px;
+  left: 20px;
   top: 1100px;
   background: #FFB8CA;
   border-radius: 24px;
@@ -356,7 +356,7 @@
   position: absolute;
   width: 368px;
   height: 394px;
-  left: 500px;
+  left: 580px;
   top: 900px;
   z-index: 2;
 }
@@ -386,7 +386,7 @@
   position: absolute;
   width: 368px;
   height: 394px;
-  left: 965px;
+  left: 1140px;
   top: 900px;
   z-index: 2;
 }
