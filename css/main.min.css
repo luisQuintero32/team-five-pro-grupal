@@ -256,29 +256,21 @@
   background-color: #212121;
 }
 
-.footer .seccion {
+.seccion {
   background-color: #fff5f6;
   width: 100%;
   height: 877px;
 }
 
-.helado {
-  color: aqua;
-}
-
-.sobelo {
-  color: aqua;
-}
-
 .cards {
+  align-items: center;
   display: flex;
+  justify-content: space-between;
   gap: 50px;
   flex-wrap: wrap;
-  justify-content: space-between;
   margin: 0 16px 0 16px;
 }
-
-.card {
+.cards .card {
   width: 368px;
   padding: 40px;
   box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
@@ -295,6 +287,16 @@
 .card__button {
   border-radius: 6px;
   border-style: none;
+}
+
+.card__span {
+  font-family: "DM Sans";
+  line-height: 186%;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #FFFFFF;
 }
 
 .card__button--one {
@@ -323,129 +325,112 @@
   margin-bottom: 32px;
 }
 
-.titulos {
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
+.cards__titulos {
   line-height: 186%;
-  /* identical to box height, or 30px */
+  font-size: 16px;
+  font-weight: 500;
   letter-spacing: 0.04em;
+  font-family: "DM Sans";
   color: #000000;
 }
 
-.lorem {
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
+.cards__lorem {
   line-height: 183%;
-  /* or 29px */
+  font-size: 16px;
+  font-weight: 500;
   letter-spacing: 0.04em;
+  font-family: "DM Sans";
   color: #907E82;
   margin-bottom: 32px;
 }
 
-.dias {
+.cards__days {
   font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
   line-height: 186%;
-  /* identical to box height, or 30px */
+  font-size: 16px;
+  font-weight: 500;
   letter-spacing: 0.04em;
   color: #000000;
+  margin-top: 32px;
 }
 
-.hora {
+.cards__hours {
   margin-bottom: 12px;
-  font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 500;
+  line-height: 186%;
   font-size: 16px;
-  /* identical to box height, or 30px */
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  font-family: "DM Sans";
   color: #FFA5BA;
 }
 
-.hora--hr {
+.cards__hours--hr {
   margin-bottom: 32px;
 }
 
-.numero {
+.address__number {
   font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
   line-height: 183%;
-  /* or 29px */
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
   color: #907E82;
+  font-style: normal;
 }
 
 address {
   margin-top: 32px;
 }
 
-.botones {
+.buttons__footer {
+  align-items: center;
   display: flex;
   justify-content: center;
-  align-items: center;
   margin-top: 60px;
+  margin-bottom: 121px;
   gap: 12px;
 }
 
-.locacion {
-  width: 198px;
-  height: 44px;
-  left: 411px;
-  top: 4475px;
+.button__footer {
   border-style: none;
-  background: #D41342;
+  background: #fff;
+  color: #D41443;
   border-radius: 22px;
+  cursor: pointer;
 }
 
-.francisco {
+.button__footer--one {
   width: 168px;
   height: 44px;
   left: 621px;
   top: 4476px;
-  border-style: none;
-  background: #FFFFFF;
-  border-radius: 22px;
 }
 
-.letras {
+.button__footer--two {
+  width: 168px;
+  height: 44px;
+  left: 621px;
+  top: 4476px;
+}
+
+.button__span {
   font-family: "DM Sans";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
   line-height: 21px;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.01em;
 }
 
-.iconos-social {
-  fill: #C2E297;
+.button__svg {
+  margin-left: 8px;
+  rotate: 90deg;
 }
 
-.icon {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
-}
-
-.icon-Vector-2-1 {
-  width: 0.7998046875em;
-}
-
-.spo {
-  width: 100%;
-  height: 100px;
-}
-
-.icon-social {
-  width: 20px;
-  height: 20px;
+.button__svg:hover,
+.button__footer:hover {
+  background-color: #D41443;
+  color: #fff;
+  fill: #fff;
 }
 
 * {
