@@ -433,6 +433,14 @@ address {
   fill: #fff;
 }
 
+.hero {
+  background: url("/images/SVG/sectionjeje.png");
+  height: 800px;
+  width: 100%;
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+}
+
 * {
   padding: 0;
   margin: 0;
