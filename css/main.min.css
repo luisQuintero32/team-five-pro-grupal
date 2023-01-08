@@ -567,6 +567,12 @@ address {
   text-align: center;
 }
 
+.third__container-contents {
+  background: url(/images/SVG/cow.png);
+  background-repeat: no-repeat;
+  width: 100vw;
+}
+
 .third {
   background: #FFF5F6;
 }
