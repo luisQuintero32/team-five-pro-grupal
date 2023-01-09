@@ -13,9 +13,14 @@
 // @import "../sass/components/first_title";
 // @import "../sass/components/first__buttons.scss";
 // @import "../sass/components/first__imgs.scss";
-
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
 }
