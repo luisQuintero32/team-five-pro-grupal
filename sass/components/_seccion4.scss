@@ -1,12 +1,27 @@
 @import "../utils/mixins";
 @import "../utils/variables";
 
-.container4{
-  height: auto;
-}
+// comienzo contenedor imagenes
   .collage {
     @include flex(center, flex, center);
+    position: relative;
+    &::before{
+      content: '';
+      width: 100%;
+      height: 90px;
+      left: 0;
+      top: 0;
+      background-color: #fff5f6;
+      position: absolute;
+    }
   }
+  .secso{
+    position: relative;
+  }
+
+// fin contenedor imagenes
+
+
   
   .testimonial {
     display:block ;
