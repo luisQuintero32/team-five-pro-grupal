@@ -95,10 +95,10 @@
 }
 
 &__container-info {
-
+    // flex-wrap: wrap;
     display: flex;
     gap: 100px;
-    justify-content: start;
+    // justify-content: start;
     margin-top: 211px;
     padding-bottom: 50px;
     margin-left: 16px;
@@ -133,7 +133,9 @@
 }
 
 }
-
+.icons-svg-seccion-three{
+    display: block;
+}
 
 
 

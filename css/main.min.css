@@ -785,7 +785,6 @@ address {
 .third__container-info {
   display: flex;
   gap: 100px;
-  justify-content: start;
   margin-top: 211px;
   padding-bottom: 50px;
   margin-left: 16px;
@@ -815,6 +814,10 @@ address {
   line-height: 176%;
   letter-spacing: 0.02em;
   color: #000000;
+}
+
+.icons-svg-seccion-three {
+  display: block;
 }
 
 .container4 {
