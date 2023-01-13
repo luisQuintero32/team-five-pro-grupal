@@ -1098,6 +1098,322 @@ img {
   cursor: pointer;
 }
 
+@media screen and (max-width: 768px) {
+  .collage {
+    width: 100%;
+    height: auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+
+  .collage img:not(:last-child) {
+    width: 100%;
+    height: auto;
+    margin-bottom: 8px;
+  }
+  .collage::before {
+    content: "";
+    width: 100%;
+    height: auto;
+    left: 0;
+    top: 0;
+    background-color: #fff5f6;
+    position: absolute;
+  }
+  
+  .images-list-collage {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+  }
+  
+  img {
+    display: block;
+  }
+  
+  .collage-image {
+    width: 100%;
+    height: auto;
+    padding-bottom: 8px;
+    margin-right: 8px;
+  }
+  .collage-image--four {
+    margin-top: 45px;
+  }
+  
+  .testimonial {
+    width: 100%;
+    display: block;
+    margin-top: 121px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    border-radius: 44px;
+  }
+  
+  .div--testimonio {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+  }
+  
+  .div--testimonio--two {
+    width: 100%;
+    position: relative;
+    height: auto;
+    background-color: #fafafa;
+    padding: 47px 100px 39px 100px;
+    width: 968px;
+  }
+  
+  .testimonio--svg {
+    width: 100%;
+    position: absolute;
+    fill: #E1E1E1;
+  }
+  
+  .flex {
+    padding-left: 38px;
+    line-height: 186%;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    font-family: "DM Sans";
+    font-style: normal;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .hr {
+    width: 100%;
+    height: 1px;
+    margin-top: 10px;
+  }
+  
+  .flex--letter {
+    width: 100%;
+    margin-left: 60px;
+  }
+  
+  .iconos-pol {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .iconos-pol__ul {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .ubicacion-angeles {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+  }
+  .ubicacion-angeles p {
+    width: 100%;
+    line-height: 186%;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    font-family: "DM Sans";
+    font-style: normal;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .icons-home {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+  }
+  .icons-home ul {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .icons-home-svg {
+    fill: #D9D9D9;
+  }
+  .icons-home-svg:hover {
+    fill: #D31342;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .collage {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .collage img:not(:last-child) {
+    width: 100%;
+    height: auto;
+    margin-bottom: 8px;
+  }
+  .collage::before {
+    content: "";
+    width: 100%;
+    height: auto;
+    left: 0;
+    top: 0;
+    background-color: #fff5f6;
+    position: absolute;
+  }
+  
+  .images-list-collage {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+  }
+  
+  img {
+    display: block;
+  }
+  
+  .collage-image {
+    width: 100%;
+    height: auto;
+    padding-bottom: 8px;
+    margin-right: 8px;
+  }
+  .collage-image--four {
+    margin-top: 45px;
+  }
+  
+  .testimonial {
+    width: 100%;
+    display: block;
+    margin-top: 121px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    border-radius: 44px;
+  }
+  
+  .div--testimonio {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-bottom: 16px;
+  }
+  
+  .div--testimonio--two {
+    width: 100%;
+    position: relative;
+    height: auto;
+    background-color: #fafafa;
+    padding: 47px 100px 39px 100px;
+    width: 968px;
+  }
+  
+  .testimonio--svg {
+    width: 100%;
+    position: absolute;
+    fill: #E1E1E1;
+  }
+  
+  .flex {
+    padding-left: 38px;
+    line-height: 186%;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    font-family: "DM Sans";
+    font-style: normal;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .hr {
+    width: 100%;
+    height: 1px;
+    margin-top: 10px;
+  }
+  
+  .flex--letter {
+    width: 100%;
+    margin-left: 60px;
+  }
+  
+  .iconos-pol {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .iconos-pol__ul {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .ubicacion-angeles {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+  }
+  .ubicacion-angeles p {
+    width: 100%;
+    line-height: 186%;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    font-family: "DM Sans";
+    font-style: normal;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .icons-home {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+  }
+  .icons-home ul {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .icons-home-svg {
+    fill: #D9D9D9;
+  }
+  .icons-home-svg:hover {
+    fill: #D31342;
+    cursor: pointer;
+  }
+}
+
 .cards {
   align-items: center;
   display: flex;
