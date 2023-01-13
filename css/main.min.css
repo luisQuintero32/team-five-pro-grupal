@@ -1107,6 +1107,7 @@ img {
     justify-content: center;
     position: relative;
   }
+
   .collage img:not(:last-child) {
     width: 100%;
     height: auto;
