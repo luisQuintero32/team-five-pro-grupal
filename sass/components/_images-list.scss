@@ -23,9 +23,12 @@
     padding-right: 20px;
     position: relative;
   }
-img{
-  display: block;
-}
+  img{
+      display: block;
+  max-width: 100%;
+  height: auto;
+  }
+
 .collage-image{
   padding-bottom: 8px;
   margin-right: 8px;
