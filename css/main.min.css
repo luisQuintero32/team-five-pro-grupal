@@ -611,23 +611,26 @@
   color: #D41443;
   margin-top: 16px;
 }
+
+.second__card-one {
+  position: relative;
+  margin-left: 20px;
+  width: 368px;
+  height: 535px;
+  /* left: 20px;
+  top: 1100px; */
+  background: #FFB8CA;
+  border-radius: 24px;
+  cursor: pointer;
+}
 .second__pic-one {
   position: absolute;
   width: 368px;
   height: 394px;
-  left: 20px;
-  top: 900px;
+  top: -53%;
+  /* left: 20px;
+  top: 900px; */
   z-index: 2;
-}
-.second__card-one {
-  margin-left: 20px;
-  width: 368px;
-  height: 535px;
-  left: 20px;
-  top: 1100px;
-  background: #FFB8CA;
-  border-radius: 24px;
-  cursor: pointer;
 }
 .second__t-ice-cream {
   font-family: "Titan One";
@@ -652,18 +655,21 @@
   color: #FFFFFF;
 }
 .second__img-arrow {
-  margin-left: 155px;
-  margin-top: 100px;
+  display: flex;
+  margin: 10% 42%;
+  /* margin-left: 155px;
+  margin-top: 100px; */
 }
 .second__list {
   display: flex;
   gap: 50px;
 }
 .second__card-two {
+  position: relative;
   width: 368px;
   height: 535px;
-  left: 540px;
-  top: 770px;
+  /* left: 540px;
+  top: 770px; */
   background: #F0D1A5;
   border-radius: 24px;
   cursor: pointer;
@@ -672,8 +678,9 @@
   position: absolute;
   width: 368px;
   height: 394px;
-  left: 580px;
-  top: 900px;
+  top: -53%;
+  /* left: 580px;
+  top: 900px; */
   z-index: 2;
 }
 .second__t-ice-coffee {
@@ -689,11 +696,12 @@
   margin-top: 120px;
 }
 .second__card-three {
+  position: relative;
   margin-right: 20px;
   width: 368px;
   height: 535px;
-  left: 1020px;
-  top: 1100px;
+  /* left: 1020px;
+  top: 1100px; */
   background: #C2E297;
   border-radius: 24px;
   cursor: pointer;
@@ -702,14 +710,169 @@
   position: absolute;
   width: 368px;
   height: 394px;
-  left: 1140px;
-  top: 900px;
+  top: -53%;
+  /* left: 1140px;
+  top: 900px; */
   z-index: 2;
 }
 .second__img-puntos {
-  margin-left: 171px;
+  
+  margin-left: 50%;
   margin-top: 30px;
 }
+
+
+
+@media (max-width:768px){
+  .second__t-products{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+  }
+  
+  .second__container-cards{
+    gap: 16px;
+    display: flex;
+    justify-content: center;
+    top: 500px;
+    margin: 0;
+    padding: 0;
+
+    
+  }
+  .second__card-one{
+    position: relative;
+    background: #FFB8CA;
+    border-radius: 24px;
+    width: 224px;
+    height: 473px;
+    margin: 0;
+  }
+  .second__pic-one{
+    justify-content: center;
+    padding: 0;
+    width: 224px;
+    height: 224px;
+    top: -25%;
+    position: absolute;
+    margin-left: -1%;
+  }
+  .second__p{
+    margin: 0;
+    margin-top: 10px;
+  
+  }
+  /* .icon{
+    display: flex;
+    justify-content: center;
+  } */
+  .second__img-puntos{
+    margin: 10px 42%;
+    display: flex;
+    justify-content: center;
+  }
+  .second__img-arrow{
+    display: flex;
+    margin: 35px 42%;
+  }
+  .second__card-two{
+    position: relative;
+    width: 224px;
+    height: 473px;
+    margin: 0;
+  }
+  .second__pic-two{
+    position: absolute;
+    width: 224px;
+    height: 224px;
+    top: -30%;
+    margin-left: -1%;
+  }
+  .second__card-three{
+    position: relative;
+    width: 224px;
+    height: 473px;
+    margin: 0;
+  }
+  .second__pic-three{
+    position: absolute;
+    width: 224px;
+    height: 224px;
+    top: -30%;
+    margin-left: -1%;
+    
+  }
+
+  
+} 
+
+@media (max-width:320px){
+  .second__t-products{
+    display: flex;
+    justify-content: center;
+  }
+
+  .second__container-cards{
+    display: flex;
+    width: 320px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    gap: 180PX;
+    
+  }
+  .second__card-one{
+    position: relative;
+    background: #FFB8CA;
+    border-radius: 24px;
+    width: 280px;
+    height: 489px;
+    margin-left: 0;
+   
+  }
+  .second__img-puntos{
+    display: flex;
+    margin-left: 50%;
+  }
+  .second__pic-one{
+    justify-content: center;
+    width: 280px;
+    height: 280px;
+    top: -30%;
+    position: absolute;
+    margin-left: -1%;
+  }
+
+  .second__card-two{
+    position: relative;
+    width: 280px;
+    height: 489px;
+  }
+  .second__pic-two{
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    top: -30%;
+    margin-left: -1%;
+  }
+  .second__card-three{
+    position: relative;
+    width: 280px;
+    height: 489px;
+    margin: 0;
+  }
+  .second__pic-three{
+    position: absolute;
+    width: 280px;
+    height: 280px;
+    top: -30%;
+    margin-left: -1%;
+
+}
+
+
+
+
 
 .footer__title {
   width: 500px;
