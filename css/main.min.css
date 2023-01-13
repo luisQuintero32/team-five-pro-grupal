@@ -1198,10 +1198,6 @@ img {
   line-height: 1.5;
   color: #907E82;
 }
-.cards__numbers a {
-  color: inherit;
-  text-decoration: none;
-}
 @media screen and (min-width: 720px) {
   .cards__numbers {
     font-size: 14px;
@@ -1272,6 +1268,7 @@ li {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 .container {
