@@ -1,0 +1,60 @@
+.collage {
+    @include flex(center, flex, center);
+    position: relative;
+    & img:not(:last-child) {
+      margin-bottom: 8px;
+    }
+    &::before{
+      content: '';
+      width: 100%;
+      height: 90px;
+      left: 0;
+      top: 0;
+      background-color: #fff5f6;
+      position: absolute;
+    }
+  }
+
+  .images-list-collage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+  }
+img{
+  display: block;
+}
+.collage-image{
+  padding-bottom: 8px;
+  margin-right: 8px;
+  &--four{
+    margin-top: 45px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+    .images-list-collage {
+      max-width: 287px;
+      height: 100%;
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .images-list-collage {
+      max-width: 620px;
+      height: 100%;
+    }
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    .images-list-collage {
+      width: auto;
+      height: 100%;
+    }
+  }
+  @media screen and (max-width: 1199px) {
+    .images-list-collage {
+      max-width: 1010px;
+      height: 100%;
+    }
+  }

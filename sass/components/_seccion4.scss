@@ -1,47 +1,6 @@
 @import "../utils/mixins";
 @import "../utils/variables";
 
-// comienzo contenedor imagenes
-  .collage {
-    @include flex(center, flex, center);
-    position: relative;
-    & img:not(:last-child) {
-      margin-bottom: 8px;
-    }
-    &::before{
-      content: '';
-      width: 100%;
-      height: 90px;
-      left: 0;
-      top: 0;
-      background-color: #fff5f6;
-      position: absolute;
-    }
-  }
-  // .secso{
-  //   position: relative;
-  // }
-  .images-list-collage{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    position: relative;
-  }
-img{
-  display: block;
-}
-.collage-image{
-  padding-bottom: 8px;
-  margin-right: 8px;
-  &--four{
-    margin-top: 45px;
-  }
-}
-// fin contenedor imagenes
-
-
   
   .testimonial {
     display:block ;
@@ -120,3 +79,14 @@ color: #000000
       cursor: pointer;
     }
   }
+
+  @media screen and (max-width: 768px) {
+    .collage{
+      width: 100%;
+      height: auto;
+      @include flex (center, flex, center);
+      position: relative;
+    }
+  }
+
+  
