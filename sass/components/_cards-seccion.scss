@@ -99,9 +99,9 @@ address{
 
 // botones
 .buttons__footer{
+    height: 120px;
+    background-color: #fff5f6;
     @include flex (center, flex, center);
-    margin-top: 60px;
-    margin-bottom: 121px;
     gap: 12px;
 }
 
@@ -140,4 +140,22 @@ font-family: 'DM Sans';
     background-color: #D41443;
     color: #fff;
     fill: #fff;
+}
+.cards__information {
+    position: relative;
+    width: 100%;
+    min-height: 500px;
+    background-color: #fff5f6;
+}
+.cards__information .container{
+    color: antiquewhite;
+}
+.cards{
+    top: 0;
+    position: absolute;
+    transform: translateY(-20%);
+}
+.container--div{
+    display: flex;
+    justify-content: center;
 }

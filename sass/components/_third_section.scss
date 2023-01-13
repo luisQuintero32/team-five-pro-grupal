@@ -105,7 +105,7 @@
     letter-spacing: 0.04em;
     color: #000000;
     text-align: justify;
-    @include Font-ff-fw-lh-fs-c($main-font, 500, 1.58, 12px, $black-color-text);
+    // @include Font-ff-fw-lh-fs-c($main-font, 500, 1.58, 12px, $black-color-text);
   margin-bottom: 30px;
   @media screen and (min-width: 768px) {
     font-size: 14px;
