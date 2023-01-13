@@ -731,7 +731,7 @@
   }
   
   .second__container-cards{
-    gap: 16px;
+    gap: 3px;
     display: flex;
     justify-content: center;
     top: 500px;
