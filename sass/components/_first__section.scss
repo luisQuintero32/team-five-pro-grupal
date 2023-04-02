@@ -4,4 +4,6 @@
 .first{
     position: relative;
     background-color: $main-background-color;
+    overflow: hidden;
+    height: 664px;
 }
