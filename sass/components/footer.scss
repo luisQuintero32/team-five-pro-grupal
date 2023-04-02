@@ -1,0 +1,92 @@
+@import "../utils/mixins";
+@import "../utils/variables";
+
+// Andrea
+// footer{
+//     margin-top: 100px;
+// }
+.footer__title {
+    width: 500px;
+}
+
+.footer__p--one {
+    @include title-pink;
+}
+
+.footer__p--two {
+    @include title-redwine;
+}
+
+.footer1 {
+    margin-top: 62px;
+}
+
+
+.footer__ul {
+    @include flex(center, flex, center);
+    gap: 30px;
+    list-style: none;
+}
+
+
+.footer__icon-svg {
+    left: 16.67%;
+    right: 23.33%;
+    top: 26.67%;
+    bottom: 26.67%;
+    width: 20px;
+    height: 20px;
+    fill: #FFFFFF;
+}
+
+.footer__icon-social {
+    width: 44px;
+    height: 44px;
+    @include flex (center, flex, center);
+    border-radius: 50%;
+    background: #FEA5BB;
+}
+
+.footer__icon-social:hover {
+    background-color: #D41443;
+    cursor: pointer;
+}
+
+.footer__container {
+    background-color: #fff5f6;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__copyright-p {
+    @include text(186%, 700, 14px, 0.02em);
+    font-family: 'DM Sans';
+    font-style: normal;
+    color: #907E82;
+}
+
+.footer__copyright {
+    padding: 7px 0;
+    background-color: #fff5f6;
+    display: flex;
+    justify-content: center;
+}
+
+
+.footer__contact-span {
+    font-family: 'DM Sans';
+    @include  text(186%, 700, 16px, 0.02em);
+    font-style: normal;
+    color: #D41443;
+}
+
+
+.footer__contact {
+    margin-top: 20px;
+}
+.footer__contact-p {
+    font-family: 'DM Sans';
+    @include text(186%, 700, 16px, 0.02em);
+    font-style: normal;
+    color: #000000;
+}
