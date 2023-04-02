@@ -1,154 +1,17 @@
-.first {
-  position: relative;
-  background-color: #FFB8CA;
-}
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 8 | @import "./components/seccion4";
+ *   |         ^^^^^^^^^^^^^^^^^^^^^^^
+ *   '
+ *   sass\main.scss 8:9  root stylesheet */
 
-.first__title {
-  margin-left: 20px;
-  line-height: 44px;
-  font-size: 38px;
-  font-weight: 400;
-  letter-spacing: 0.04em;
-  font-family: "Titan One", cursive;
-  text-transform: uppercase;
-  margin-top: 60px;
-  color: #FFFFFF;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a   \2577 \a 8 \2502  @import \"./components/seccion4\";\d\a   \2502          ^^^^^^^^^^^^^^^^^^^^^^^\a   \2575 \a   sass\\main.scss 8:9  root stylesheet";
 }
-.first__title-color {
-  line-height: 90.5%;
-  font-size: 400;
-  font-weight: 58px;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: #D41443;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-}
-.header__menu {
-  list-style: none;
-  display: flex;
-  gap: 35px;
-  justify-content: center;
-}
-.header__item {
-  color: #FFFFFF;
-  font-family: "DM Sans", sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 21px;
-  margin-top: 54px;
-}
-.header__item:hover {
-  color: #D41443;
-}
-.header__logo {
-  margin-top: 44px;
-  margin-left: 20px;
-}
-.header__button {
-  width: 159px;
-  height: 44px;
-  background: #FFFFFF;
-  border-radius: 22px;
-  font-family: "DM Sans", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 21px;
-  align-items: center;
-  text-align: center;
-  color: #D41443;
-  margin-top: 35px;
-  margin-right: 10px;
-  border: 0;
-  cursor: pointer;
-}
-.header__button:hover {
-  background-color: #ECEBEB;
-}
-
-.first__button {
-  margin-left: 20px;
-}
-.first__button-products {
-  width: 107px;
-  height: 40px;
-  left: 16px;
-  margin-top: 24px;
-  background-color: #D41443;
-  border-radius: 20px;
-  border: 0;
-  cursor: pointer;
-  font-family: "DM Sans", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
-  text-align: center;
-  color: #FFFFFF;
-}
-.first__button-how {
-  width: 138px;
-  height: 40px;
-  left: 135px;
-  top: 308px;
-  border: 0;
-  background: #FFFFFF;
-  border-radius: 20px;
-  margin-left: 10px;
-  cursor: pointer;
-  font-family: "DM Sans", sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
-  text-align: center;
-  color: #D41443;
-}
-.first__button-how:hover {
-  background-color: #ECEBEB;
-}
-
-.first__img-milk {
-  margin-top: 40px;
-  margin-left: 16px;
-  display: flex;
-}
-
-.imagen-elipse {
-  display: flex;
-  justify-content: end;
-}
-
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-
-
-/* --------------------secccion2----------------- */
-
-.seccion2{
-  display: flex;
-  list-style: none;
-  gap: 34px;
-}
-
-.puntos{
-  display: flex;
-  list-style: none;
-}
-.item1{
-  background-color: red;
-  border-radius: 20px;
-}
-
-.item2{
-  background-color: #ECEBEB;
-}
-/*# sourceMappingURL=main.min.css.map */
