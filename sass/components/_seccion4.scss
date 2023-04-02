@@ -1,0 +1,86 @@
+@import "../utils/mixins";
+@import "../utils/variables";
+
+.container4{
+  height: auto;
+}
+  .collage {
+    @include flex(center, flex, center);
+  }
+  
+  .testimonial {
+    display:block ;
+    margin-top: 121px;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+  border-radius: 44px;
+  }
+
+  .div--testimonio{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 180px;
+    margin-bottom: 16px;
+  }
+  .div--testimonio--two{
+    position: relative;
+    height: 180px;
+    background-color: #fafafa;
+    padding: 47px 100px 39px 100px;
+    width: 968px;
+
+  }
+  .testimonio--svg{
+    position: absolute;
+    fill: #E1E1E1;
+  }
+  .flex{
+padding-left: 38px;
+@include text(186%, 500, 16px, 0.04em);
+font-family: 'DM Sans';
+font-style: normal;
+text-align: center;
+color: #000000
+  }
+  .hr{
+    height: 1px;
+    margin-top: 10px;
+  }
+  .flex--letter{
+    margin-left: 60px;
+  }
+  .iconos-pol{
+    @include flex(center, flex, center);
+  }
+  .iconos-pol__ul{
+    display: flex;
+    gap: 10px;
+  }
+  .ubicacion-angeles{
+    @include flex (center, flex, center);
+    margin-top: 16px;
+    p{
+    @include text (186%, 500, 20px, 0.02em);
+    font-family: 'DM Sans';
+    font-style: normal;
+    text-align: center;
+    color: #000000;
+    }
+  }
+  .icons-home{
+    @include flex(center, flex, center);
+    margin-bottom: 100px;
+    ul{
+      display: flex;
+      gap: 10px;
+    }
+  }
+  .icons-home-svg{
+    fill: #D9D9D9;
+    &:hover{
+      fill: #D31342;
+      cursor: pointer;
+    }
+  }

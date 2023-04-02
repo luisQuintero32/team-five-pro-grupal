@@ -1,0 +1,237 @@
+@import "../utils/mixins";
+@import "../utils/variables";
+
+//Seccion footer
+
+.seccion{
+    background-color: #fff5f6;
+    width: 100%;
+    height: 877px;
+}
+
+// tarjetas
+.cards{
+    @include flex(center, flex, space-between);
+    gap: 50px;
+    flex-wrap: wrap;
+    margin: 0 16px 0 16px;
+    .card{
+        width: 368px;
+        padding: 40px;
+        box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+        border-radius: 24px;
+        background-color: #fff;
+    }
+}
+
+.hr{
+width: 100%;
+height: 8px;
+color:brown;
+}
+// botones
+.card__button{
+border-radius: 6px;
+border-style: none;
+}
+.card__span{
+font-family: 'DM Sans';
+@include text(186%, 500, 16px, 00.04em);
+text-align: center;
+color: #FFFFFF;
+}
+
+.card__button--one{
+width: 75.1px;
+height: 28px;
+left: 56px;
+top: 3917px;
+background: #F0D1A5;
+border-radius: 6px;
+margin-bottom: 32px;
+}
+.card__button--two{
+    width: 138px;
+    height: 28px;
+    left: 456px;
+    top: 3917px;
+    background: #C2E297;
+    margin-bottom: 32px;
+}
+.card__button--tree{
+width: 73px;
+height: 28px;
+background: #F0D1A5;
+margin-bottom: 32px;
+}
+.cards__titulos{
+@include text(186%, 500, 16px,00.04em);
+font-family: 'DM Sans';
+color: #000000;
+}
+.cards__lorem{
+@include text(183%, 500, 16px, 00.04em);
+font-family: 'DM Sans';
+color: #907E82;
+margin-bottom: 32px;
+}
+.cards__days{
+font-family: 'DM Sans';
+@include text(186%, 500, 16px, 00.04em);
+color: #000000;
+margin-top: 32px;
+}
+.cards__hours{
+margin-bottom: 12px;
+@include text(186%, 500, 16px, 00.01em);
+font-family: 'DM Sans';
+color: #FFA5BA;
+}
+.cards__hours--hr{
+    margin-bottom: 32px;
+}
+.address__number{    
+font-family: 'DM Sans';
+@include text(183%, 500, 15px, 0.01em);
+color: #907E82;
+font-style: normal;
+}
+
+address{
+    margin-top: 32px;
+}
+
+
+
+// botones
+.buttons__footer{
+    @include flex (center, flex, center);
+    margin-top: 60px;
+    margin-bottom: 121px;
+    gap: 12px;
+}
+
+.button__footer{
+    border-style: none;
+    background: #fff;
+    color: #D41443;
+    border-radius: 22px;
+    cursor: pointer;
+
+}
+.button__footer--one{
+    width: 168px;
+    height: 44px;
+    left: 621px;
+    top: 4476px;
+}
+.button__footer--two{
+    width: 168px;
+    height: 44px;
+    left: 621px;
+    top: 4476px;
+}
+
+.button__span{
+font-family: 'DM Sans';
+@include text (21px, 700, 16px, 0.01em);
+}
+// pendiente hover
+.button__svg{
+    margin-left: 8px;
+    rotate: (90deg);
+}
+.button__svg:hover,
+.button__footer:hover{
+    background-color: #D41443;
+    color: #fff;
+    fill: #fff;
+}
+
+// Andrea
+
+.footer__title {
+    width: 500px;
+}
+
+.footer__p--one {
+    @include title-pink;
+}
+
+.footer__p--two {
+    @include title-redwine;
+}
+
+.footer1 {
+    margin-top: 62px;
+}
+
+
+.footer__ul {
+    @include flex(center, flex, center);
+    gap: 30px;
+    list-style: none;
+}
+
+
+.footer__icon-svg {
+    left: 16.67%;
+    right: 23.33%;
+    top: 26.67%;
+    bottom: 26.67%;
+    width: 20px;
+    height: 20px;
+    fill: #FFFFFF;
+}
+
+.footer__icon-social {
+    width: 44px;
+    height: 44px;
+    @include flex (center, flex, center);
+    border-radius: 50%;
+    background: #FEA5BB;
+}
+
+.footer__icon-social:hover {
+    background-color: #D41443;
+    cursor: pointer;
+}
+
+.footer__container {
+    background-color: #fff5f6;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__copyright-p {
+    @include text(186%, 700, 14px, 0.02em);
+    font-family: 'DM Sans';
+    font-style: normal;
+    color: #907E82;
+}
+
+.footer__copyright {
+    padding: 7px 0;
+    background-color: #fff5f6;
+    display: flex;
+    justify-content: center;
+}
+
+
+.footer__contact-span {
+    font-family: 'DM Sans';
+    @include  text(186%, 700, 16px, 0.02em);
+    font-style: normal;
+    color: #D41443;
+}
+
+
+.footer__contact {
+    margin-top: 20px;
+}
+.footer__contact-p {
+    font-family: 'DM Sans';
+    @include text(186%, 700, 16px, 0.02em);
+    font-style: normal;
+    color: #000000;
+}

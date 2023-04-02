@@ -1,0 +1,145 @@
+@import "../utils/mixins";
+@import "../utils/variables";
+
+.third__container-contents{
+    background: url(/images/SVG/cow.png);
+    background-repeat: no-repeat;
+    // width: 100vw;
+}
+.third {
+    background: $third-background-color;
+    
+    &__h3{
+        @include title-pink;
+        padding-top: 30px;
+    }
+    &__h2{
+     @include title-redwine;
+     margin-top: 16px;
+    }
+
+  
+  &__container-contents {
+      display: flex;
+      justify-content: space-evenly;
+  }
+  
+  &__container-contents &__content-texts {
+      width: 48%;
+  }
+
+  &__tittle-info {
+      display: inline-block;
+      font-size: 58px;
+      text-align: center;
+      margin-bottom: 16px;
+      font-family: 'Titan One';
+      text-align: center;
+      color:$main-text-color;
+      letter-spacing: 0.04em
+
+}
+
+&__tittle-info {
+    display: inline-block;
+    font-size: 58px;
+    text-align: center;
+    margin-bottom: 16px;
+    font-family: 'Titan One';
+    text-align: center;
+    color:$main-text-color;
+    letter-spacing: 0.04em;
+
+
+}
+&__p-one {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 176%;
+    letter-spacing: 0.04em;
+    color: #000000;
+    text-align: justify;
+}
+&__content-texts &__p-one {
+
+    margin-top: 90px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 176%;
+    letter-spacing: 0.04em;
+
+}
+&__botton {
+    margin-top: 50px;
+    margin-right: 599px;
+    background-color: $third-text-color;
+    color:$main-text-color;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    width: 176px;
+    height: 44px;
+    left: 616px;
+    top: 2349px;
+    border-radius: 22px;
+    border: 0;
+    cursor: pointer;
+}
+&__botton:hover{
+    background-color:$fifth-background-color;
+}
+
+&__container-info {
+
+    display: flex;
+    gap: 100px;
+    justify-content: start;
+    margin-top: 211px;
+    padding-bottom: 50px;
+    margin-left: 16px;
+}
+&__content-foo {
+    margin-top: 50px;
+}
+&__p-two{
+        margin-top: 32px;
+        text-align: justify;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 194%;
+        letter-spacing: 0.04em;
+        color: $fifth-text-color;
+        }
+
+&__content-foo {
+    margin-top: 50px;
+} 
+&__p-info {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 176%;
+    letter-spacing: 0.02em;
+    color: #000000;
+   
+}
+
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,112 @@
+@import "../utils/variables";
+@import "../utils/mixins";
+
+.second{
+&__container-cards{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 350px;
+  margin-bottom: 90px;
+}
+
+&__t-natural {
+        @include title-pink;
+        margin-top: 50px;
+    }
+&__t-products{
+  @include title-redwine;
+  margin-top: 16px;
+}
+&__pic-one{
+        position: absolute;
+        width: 368px;
+        height: 394px;
+        left: 20px;
+        top: 900px;
+        z-index: 2;
+        
+}
+&__card-one{
+
+   margin-left: 20px;
+    width: 368px;
+    height: 535px;
+    left: 20px;
+    top: 1100px;
+    background:$main-background-color;
+    border-radius: 24px;
+    cursor: pointer;
+}
+&__t-ice-cream{
+@include title-ice-cream-ice-coffee-milkshakes;
+
+}
+&__p{
+  
+  margin-top: 80px;
+  font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 176%;
+    text-align: center;
+    color: #FFFFFF;
+}
+&__img-arrow{
+ margin-left: 155px;
+ margin-top: 100px;
+}
+&__list{
+  
+  display: flex;
+  gap:50px
+}
+// carda two
+&__card-two{
+ 
+    width: 368px;
+    height: 535px;
+    left: 540px;
+    top: 770px;;
+    background: #F0D1A5;
+    border-radius: 24px;
+    cursor: pointer;
+}
+&__pic-two{
+position: absolute;
+  width: 368px;
+  height: 394px;
+  left: 580px;
+  top: 900px;;
+  z-index: 2;
+}
+&__t-ice-coffee{
+@include title-ice-cream-ice-coffee-milkshakes;
+}
+
+// card three
+&__card-three{
+    margin-right: 20px;
+    width: 368px;
+    height: 535px;
+    left: 1020px;
+    top:1100px;
+    background: #C2E297;
+    border-radius: 24px;
+    cursor: pointer;
+
+}
+&__pic-three{
+    position:absolute;
+    width: 368px;
+    height: 394px;
+    left: 1140px;
+    top: 900px;
+    z-index: 2;
+}
+&__img-puntos{
+  margin-left: 171px;
+  margin-top: 30px;
+}
+}
+
