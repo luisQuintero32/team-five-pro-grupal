@@ -1,6 +1,8 @@
 .first {
   position: relative;
   background-color: #FFB8CA;
+  overflow: hidden;
+  height: 664px;
 }
 
 .first__title {
@@ -40,6 +42,7 @@
   font-size: 16px;
   line-height: 21px;
   margin-top: 54px;
+  z-index: 5;
 }
 .header__item:hover {
   color: #D41443;
@@ -112,15 +115,456 @@
   background-color: #ECEBEB;
 }
 
+.box__milk {
+  position: relative;
+  flex-direction: row;
+  width: 500px;
+}
+
 .first__img-milk {
-  margin-top: 40px;
-  margin-left: 16px;
+  position: absolute;
+  top: 60px;
+  left: 30px;
   display: flex;
 }
 
+.text_description {
+  position: absolute;
+  top: 470px;
+  left: 250px;
+  width: 220px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+
+.box__svg {
+  position: absolute;
+  width: 200px;
+  top: 570px;
+  left: 250px;
+}
+
 .imagen-elipse {
+  position: absolute;
+  top: 54px;
+  left: 557px;
+  z-index: 1;
+}
+
+.image__cream {
+  position: absolute;
+  top: 108px;
+  left: 676px;
+  z-index: 7;
+}
+
+.images__tasty {
+  position: absolute;
+  top: 423px;
+  left: 920px;
+  z-index: 7;
+}
+
+.box__svg {
+  display: inline-block;
+}
+
+.arrow__svg {
+  width: 20px;
+  height: 20px;
+}
+
+.cafes {
+  position: absolute;
+  top: 156px;
+  right: 50px;
+  width: 100px;
+  height: 100px;
+}
+
+.cafes .number {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-family: "Titan One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 53px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #D41443;
+  z-index: 2;
+}
+
+.cafes .letter {
+  position: absolute;
+  top: 65px;
+  left: 28px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.cafes img {
+  position: absolute;
+  top: 6px;
+  left: 50px;
+  z-index: 1;
+}
+
+.food__trucks {
+  position: absolute;
+  top: 247px;
+  right: 50px;
+  width: 100px;
+  height: 100px;
+}
+
+.food__trucks .number {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-family: "Titan One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 53px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #D41443;
+  z-index: 2;
+}
+
+.food__trucks .letter {
+  position: absolute;
+  top: 65px;
+  left: -25px;
+  width: inherit;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  line-height: 18px;
+  color: #FFFFFF;
+}
+
+.food__trucks img {
+  position: absolute;
+  top: 6px;
+  left: 50px;
+  z-index: 1;
+}
+
+.second__container-cards {
   display: flex;
-  justify-content: end;
+  justify-content: space-between;
+  margin-top: 350px;
+  margin-bottom: 90px;
+}
+.second__t-natural {
+  font-family: "Titan One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 34px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #FFA5BA;
+  margin-top: 50px;
+}
+.second__t-products {
+  font-family: "Titan One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 66px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #D41443;
+  margin-top: 16px;
+}
+.second__pic-one {
+  position: absolute;
+  width: 368px;
+  height: 394px;
+  left: 20px;
+  top: 900px;
+  z-index: 2;
+}
+.second__card-one {
+  margin-left: 20px;
+  width: 368px;
+  height: 535px;
+  left: 50px;
+  top: 1100px;
+  background: #FFB8CA;
+  border-radius: 24px;
+  cursor: pointer;
+}
+.second__t-ice-cream {
+  font-family: "Titan One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 34px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 120px;
+}
+.second__p {
+  margin-top: 80px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 176%;
+  text-align: center;
+  color: #FFFFFF;
+}
+.second__img-arrow {
+  margin-left: 155px;
+  margin-top: 100px;
+}
+.second__list {
+  display: flex;
+  gap: 50px;
+}
+.second__card-two {
+  width: 368px;
+  height: 535px;
+  left: 540px;
+  top: 770px;
+  background: #F0D1A5;
+  border-radius: 24px;
+  cursor: pointer;
+}
+.second__pic-two {
+  position: absolute;
+  width: 368px;
+  height: 394px;
+  left: 500px;
+  top: 900px;
+  z-index: 2;
+}
+.second__t-ice-coffee {
+  font-family: "Titan One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 34px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 120px;
+}
+.second__card-three {
+  margin-right: 20px;
+  width: 368px;
+  height: 535px;
+  left: 1020px;
+  top: 1100px;
+  background: #C2E297;
+  border-radius: 24px;
+  cursor: pointer;
+}
+.second__pic-three {
+  position: absolute;
+  width: 368px;
+  height: 394px;
+  left: 965px;
+  top: 900px;
+  z-index: 2;
+}
+.second__img-puntos {
+  margin-left: 171px;
+  margin-top: 30px;
+}
+
+.footer {
+  background-color: #212121;
+}
+
+.footer .seccion {
+  background-color: #fff5f6;
+  width: 100%;
+  height: 877px;
+}
+
+.helado {
+  color: aqua;
+}
+
+.sobelo {
+  color: aqua;
+}
+
+.cards {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 16px 0 16px;
+}
+
+.card {
+  width: 368px;
+  padding: 40px;
+  box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+  border-radius: 24px;
+  background-color: #fff;
+}
+
+.hr {
+  width: 100%;
+  height: 8px;
+  color: brown;
+}
+
+.card__button {
+  border-radius: 6px;
+  border-style: none;
+}
+
+.card__button--one {
+  width: 75.1px;
+  height: 28px;
+  left: 56px;
+  top: 3917px;
+  background: #F0D1A5;
+  border-radius: 6px;
+  margin-bottom: 32px;
+}
+
+.card__button--two {
+  width: 138px;
+  height: 28px;
+  left: 456px;
+  top: 3917px;
+  background: #C2E297;
+  margin-bottom: 32px;
+}
+
+.card__button--tree {
+  width: 73px;
+  height: 28px;
+  background: #F0D1A5;
+  margin-bottom: 32px;
+}
+
+.titulos {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 186%;
+  /* identical to box height, or 30px */
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+
+.lorem {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 183%;
+  /* or 29px */
+  letter-spacing: 0.04em;
+  color: #907E82;
+  margin-bottom: 32px;
+}
+
+.dias {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 186%;
+  /* identical to box height, or 30px */
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+
+.hora {
+  margin-bottom: 12px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  /* identical to box height, or 30px */
+  color: #FFA5BA;
+}
+
+.hora--hr {
+  margin-bottom: 32px;
+}
+
+.numero {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 183%;
+  /* or 29px */
+  color: #907E82;
+}
+
+address {
+  margin-top: 32px;
+}
+
+.botones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  gap: 12px;
+}
+
+.locacion {
+  width: 198px;
+  height: 44px;
+  left: 411px;
+  top: 4475px;
+  border-style: none;
+  background: #D41342;
+  border-radius: 22px;
+}
+
+.francisco {
+  width: 168px;
+  height: 44px;
+  left: 621px;
+  top: 4476px;
+  border-style: none;
+  background: #FFFFFF;
+  border-radius: 22px;
+}
+
+.letras {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
 * {
@@ -129,26 +573,4 @@
   box-sizing: border-box;
 }
 
-
-
-/* --------------------secccion2----------------- */
-
-.seccion2{
-  display: flex;
-  list-style: none;
-  gap: 34px;
-}
-
-.puntos{
-  display: flex;
-  list-style: none;
-}
-.item1{
-  background-color: red;
-  border-radius: 20px;
-}
-
-.item2{
-  background-color: #ECEBEB;
-}
 /*# sourceMappingURL=main.min.css.map */
