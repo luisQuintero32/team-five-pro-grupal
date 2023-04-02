@@ -1,21 +1,26 @@
-@import "../variables.scss";
+@import "../utils/mixins";
+@import "../utils/variables";
+
 .first__title{
 margin-left: 20px;
-@include font-Titan;
-font-style: normal;
-font-weight: 400;
-font-size: 38px;
-line-height: 44px;
-letter-spacing: 0.04em;
+
+@include text (44px, 400, 38px, 0.04em);
+font-family: 'Titan One', cursive;
+// @include font-Titan;
+// font-weight: 400;
+// font-size: 38px;
+// line-height: 44px;
+// letter-spacing: 0.04em;
 text-transform: uppercase;
 margin-top: 60px;
 color: #FFFFFF;
+
 &-color{
-font-style: normal;
-font-weight: 400;
-font-size: 58px;
-line-height: 90.5%;
-letter-spacing: 0.04em;
+@include text (90.5%, 58px, 400, 0.04em);    
+// font-weight: 400;
+// font-size: 58px;
+// line-height: 90.5%;
+// letter-spacing: 0.04em;
 text-transform: uppercase;
 color: #D41443;
 }
